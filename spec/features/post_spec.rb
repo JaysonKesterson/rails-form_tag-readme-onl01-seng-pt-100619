@@ -27,3 +27,5 @@ describe 'new post' do
     expect(page).to have_content('My post title')
     expect(page).to have_content('My post description')
   end
+ end
+end
